@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_intros",
+  "version": "${version}",
+  "name": "Cobblemon Intros",
+  "description": "Allows Cobblemon battle music to have a non-looping intro",
+  "authors": [
+    "bravely_beep"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.bravelybeep.cobblemonintros.CobblemonIntros"
+    ]
+  },
+  "mixins": [
+    "cobblemonintros.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.6.1",
+    "fabric-api": ">=0.104.0"
+  }
+}
